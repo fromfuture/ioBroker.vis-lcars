@@ -394,7 +394,8 @@ function lcars_colors(input_color){
 	lcars_colors["tan"] = "#ff9966";
 	lcars_colors["lightTan"] = "#ffcc99";
 	lcars_colors["pink"] = "#cc6699";
-	lcars_colors["white"] = "#ccccff";
+	lcars_colors["white"] = "#ffffff";
+	lcars_colors["black"] = "#000000";
 	color = lcars_colors[input_color];
 	if(color == undefined){
 		return input_color;
